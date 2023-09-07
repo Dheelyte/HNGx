@@ -10,7 +10,7 @@ def index(request):
     current_day = now.strftime("%A")
     utc_time = now.isoformat().split('.')[0] + 'Z'
     track = request.GET.get('track')
-    github_file_url = "https://github.com/Dheelyte/HNGx/blob/main/core/views.py"
+    github_file_url = "https://github.com/Dheelyte/HNGx/blob/main/stage_one/core/views.py"
     github_repo_url = "https://github.com/Dheelyte/HNGx"
 
     return JsonResponse({
